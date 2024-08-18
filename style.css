@@ -1,0 +1,135 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.top{
+    height: 68vh;
+    background-color: #FFCD9E;
+    display: flex;
+    justify-content:space-between;
+}
+
+.left-section {
+    margin-left: 210px;
+    margin-top: 28px ;
+    width: 530px;
+}
+
+.line1{
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 46px;
+    text-align: left;
+    width: 450px;
+    height:85px;
+}
+
+.line2{
+    font-family: Inter;
+    font-size: 17px;
+    line-height: 32px;
+    text-align: left;
+    width: 400px;
+    color: #484848;
+}
+
+.line3{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    height: 40px;
+}
+
+.e-mail{
+    width: 230px;
+    height: 38px;
+    border-radius: 5px;
+    border: 3px solid black;
+    padding-left: 20px;
+}
+
+.e-mail::placeholder{
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+button{
+    width: 160px;
+    height: 44px;
+    background-color: black;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+    border-radius: 5px;
+    border-color: black;
+    margin-left: 6px;
+
+}
+
+.line4{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 25.6px;
+    text-align: left;
+    color: white;
+    padding-left: 38px;
+}
+
+.right-section{
+    margin-right: 186px;
+}
+
+.right-section img{
+    width: 480px;
+}
+
+
+
+
+.bottom{
+    height: 32vh;
+    background-color: #282828;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Bleft-section{
+    width: 300px;
+    margin-left: 220px;
+}
+
+.Bleft-section ul{
+    list-style: none;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 390;
+    line-height: 32px;
+    text-align: left;
+    margin-top: 30px;
+    color: white;
+}
+
+
+.Bright-section{
+    width: 300px;
+    margin-right: 310px;
+}
+
+.Bright-section ul{
+    list-style: none;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 390;
+    line-height: 32px;
+    text-align: right;
+    margin-top: 30px;
+    color: white;
+}
